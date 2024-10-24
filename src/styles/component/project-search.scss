@@ -1,0 +1,17 @@
+@import "../common/common-color";
+@import "../common/common-style";
+
+.search-container {
+  border-bottom: 1px solid var(--gray30);
+}
+
+.search-item{
+  border: 1px solid var(--gray);
+  display: flex;
+
+  > select {
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
